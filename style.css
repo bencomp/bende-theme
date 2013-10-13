@@ -1,0 +1,74 @@
+/* style.css */
+@font-face {
+  font-family: Radley;
+  src: url(file:///D:/Code/bende-theme/Radley-Regular.ttf);
+}
+
+@font-face {
+    font-family: Ultra;
+    src: url(file:///D:/Code/bende-theme/Ultra.ttf);
+}
+
+body {
+    background-color: #FFFFCC;
+    max-width: 600px;
+}
+
+.bio {
+    background-color: #FFFFCC;
+}
+.bio ul li {
+    display: block;
+    list-style-type: none;
+}
+
+article header h1 {
+    font-size: 20pt;
+    margin: 0;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+.blogcontext {
+    font-family: "Gentium", serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #888888;
+}
+
+#author {
+    font-weight: normal;
+    
+}
+
+a {
+    color: #AAAAFF;
+    text-decoration: none;
+    }
+a:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+.end {
+    text-align: center;
+    }
+    
+h1, h2 {
+    font-family: Ultra,Linux Biolinum G, Radley, Gentium Basic, Georgia, serif;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+h2 {
+    font-size: 18pt;
+    }
+
+p {
+    margin-top: 0.2em;
+    line-height: 130%;
+}

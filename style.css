@@ -1,4 +1,13 @@
-/* style.css */
+/*
+ Theme Name:     Bende Theme
+ Theme URI:      http://ben.companjen.name/bende
+ Description:    Custom theme for Bende (Ben's blog)
+ Author:         Ben Companjen
+ Author URI:     http://companjen.name/id/BC
+ Template:       twentyeleven
+ Version:        1.0.0
+*/
+
 @font-face {
   font-family: Radley;
   src: url(file:///D:/Code/bende-theme/Radley-Regular.ttf);
@@ -37,6 +46,10 @@ article header h1 {
     font-weight: lighter;
     color: #888888;
 }
+.blogcontext a {
+    padding-left: 2pt;
+    padding-right: 2pt;
+}
 
 #author {
     font-weight: normal;
@@ -44,7 +57,8 @@ article header h1 {
 }
 
 a {
-    color: #AAAAFF;
+    color: #7777AA;
+    background-color: #EEEEEE;
     text-decoration: none;
     }
 a:hover {
